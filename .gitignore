@@ -1,0 +1,20 @@
+#Ignore everything
+*
+*/
+
+#Unignore specific sub directories
+!/content
+!/static
+!/templates
+
+#Unignore specific files
+!README.md
+!.gitignore
+!app.py
+!requirements.txt
+
+#Unignore specific file types
+!*.py
+!*.html
+!*.css
+!*.md
